@@ -1,16 +1,28 @@
-# news_app
+# 📰 تطبيق الأخبار - News App
 
-A new Flutter project.
+تطبيق Flutter يعرض آخر الأخبار من خلال واجهة مستخدم بسيطة وسريعة.
 
-## Getting Started
+## 🎯 مميزات التطبيق:
 
-This project is a starting point for a Flutter application.
+- جلب الأخبار من خلال API خارجي (مثل NewsAPI).
+- عرض الأخبار بصورة وعنوان ووصف مختصر.
+- تصميم بسيط وسهل الاستخدام.
+- إمكانية الضغط على الخبر وفتحه في المتصفح.
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 صور من التطبيق
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> *(هنا تقدر تضيف صور من التطبيق لو حابة، مثلاً عن طريق رفع الصور على GitHub وكتابة:)*  
+> ![واجهة التطبيق](screenshots/home.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ التقنيات المستخدمة:
+
+- Flutter
+- Dart
+- HTTP (Dio أو http package)
+- url_launcher لفتح الأخبار في المتصفح
+
+## 📦 طريقة التشغيل:
+
+```bash
+flutter pub get
+flutter run
